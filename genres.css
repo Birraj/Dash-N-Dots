@@ -1,0 +1,116 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url("bcimg.png");
+  object-fit: contain;
+  overflow-x: hidden;
+  height: 100dvh;
+  margin: 1rem;
+}
+
+.heading {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 80;
+  float: centre;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 10px;
+  color: #f2f2f2;
+  background-color: black;
+  text-align: left;
+  padding-left: 80px;
+  text-decoration: none;
+  font-size: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  justify-content: space-between;
+  align-items: center;
+}
+
+.buttons {
+  color: white;
+  background-color: black;
+  border: 10px;
+  font-size: small;
+  padding-right: 10px;
+}
+
+.buttons:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+
+.twitter {
+  height: 40px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  justify-content: center;
+  align-items: center;
+}
+
+.logoname {
+  margin-left: 11rem;
+}
+/* .gbutton {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: rgb(114, 44, 44);
+  border-color: black;
+  border-width: 1px;
+  margin-top: 20px;
+  border-width: 1px;
+  height: 40px;
+  width: 180px;
+  text-align: center;
+} */
+
+.title {
+  text-align: center;
+}
+
+.gbutton {
+  color: white;
+  background-color: rgb(114, 44, 44);
+  border-color: black;
+  border-width: 1px;
+  margin-top: 20px;
+  border-width: 1px;
+  height: 40px;
+  width: 180px;
+  text-align: center;
+  margin: 1rem;
+}
+
+.gbutton:hover {
+  color: black;
+  background-color: white;
+}
+
+.gbuttons {
+  text-align: center;
+  margin-top: 15rem;
+}
+
+.icon {
+  margin: 1rem;
+  margin-left: 9rem;
+  height: 80px;
+}
+
+.icons {
+  margin-left: 11rem;
+}
+
+.icon:hover {
+  transform: scale(1.2);
+}

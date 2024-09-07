@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url("bcimg.png");
+  object-fit: contain;
+  overflow-x: hidden;
+  height: 100dvh;
+  margin: 1rem;
+  align-items: center;
+}
+
+.heading {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 80;
+  float: centre;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 10px;
+  color: #f2f2f2;
+  background-color: black;
+  text-align: left;
+  padding-left: 80px;
+  text-decoration: none;
+  font-size: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  justify-content: space-between;
+  align-items: center;
+}
+
+.buttons {
+  color: white;
+  background-color: black;
+  border: 10px;
+  font-size: small;
+  padding-right: 10px;
+}
+
+.buttons:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+
+.twitter {
+  height: 40px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  width: 450px;
+  height: 450px;
+  margin: 0 auto;
+  margin-top: 10rem;
+  background-color: white;
+  border: 2px solid #333;
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  display: grid;
+  grid-template-columns: repeat(1, auto);
+  justify-content: center;
+  align-items: start;
+}
+
+.loginw {
+  font-size: 20px;
+}
+
+.innerbox {
+  border-color: black;
+  border-width: 1px;
+  margin-bottom: 2rem;
+  height: 40px;
+}
+
+.loginb {
+  color: white;
+  background-color: black;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+  width: 85px;
+  margin: 0 auto;
+}
+
+.reg {
+  font-size: medium;
+  color: black;
+}
+
+.reg:hover {
+  text-decoration: underline;
+}
